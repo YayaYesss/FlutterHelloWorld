@@ -39,7 +39,7 @@ class HomeContent extends StatelessWidget {
         items: [
           BottomNavigationBarItem(
             icon: Icon(CupertinoIcons.home),
-            title: Text('Products'),
+            title: Text('Products Page'),
           ),
           BottomNavigationBarItem(
             icon: Icon(CupertinoIcons.search),
