@@ -18,7 +18,7 @@ class CupertinoAppDemo extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return CupertinoApp(
+    return CupertinoApp(efg
       home: CupertinoPageScaffold(
         navigationBar: CupertinoNavigationBar(
           middle: Text('CupertinoApp'),
