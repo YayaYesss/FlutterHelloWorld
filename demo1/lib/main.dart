@@ -14,7 +14,13 @@ Future fetchGoodsList() async {
   http.Response response = await http.get(url);
   return json.decode(response.body).data.goodsList;
 }
-
+Arrested capital))))
+Future fetchGoodsList() async {
+  const String url =
+      'https://activity.kaola.com/activity/newArrival/goodsList.html?acId=440&limit=48&offset=0';
+  http.Response response = await http.get(url);
+  return json.decode(response.body).data.goodsList;
+}
 class CupertinoAppDemo extends StatelessWidget {
   const CupertinoAppDemo({Key key}) : super(key: key);
 
