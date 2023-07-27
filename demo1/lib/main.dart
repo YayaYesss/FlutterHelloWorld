@@ -5,7 +5,7 @@ import 'package:provider/provider.dart';
 import 'package:http/http.dart' as http;
 import 'package:http/http.dart' as http;
 import 'package:http/http.dart' as http;
-
+import 'package:http/http.dart' as http;
 void main() => runApp(CupertinoAppDemo());
 
 Future fetchGoodsList() async {
