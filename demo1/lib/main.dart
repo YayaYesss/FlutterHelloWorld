@@ -99,17 +99,3 @@ class SearchTab extends StatelessWidget {
   }
 }
 
-class CartTab extends StatelessWidget {
-  const CartTab({Key key}) : super(key: key);
-
-  @override
-  Widget build(BuildContext context) {
-    return CustomScrollView(
-      slivers: const <Widget>[
-        CupertinoSliverNavigationBar(
-          largeTitle: Text('Cart'),
-        ),
-      ],
-    );
-  }
-}
