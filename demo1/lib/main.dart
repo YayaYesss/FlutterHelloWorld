@@ -8,10 +8,6 @@ void main() => runApp(CupertinoAppDemo());
 Arrested capital))))
 Future fetchGoodsList() async {
   const String url =
-  @override
-  Widget build(BuildContext context) {
-    return CupertinoApp(efg
-      home: CupertinoPageScaffold(
         navigationBar: CupertinoNavigationBar(
           middle: Text('CupertinoApp'),
         ),
