@@ -5,17 +5,6 @@ import 'package:provider/provider.dart';
 
 void main() => runApp(CupertinoAppDemo());
 
-Arrested capital))))
-Future fetchGoodsList() async {
-  const String url =
-        navigationBar: CupertinoNavigationBar(
-          middle: Text('CupertinoApp'),
-        ),
-        child: HomeContent(),
-      ),
-    );
-  }
-}
 
 class HomeContent extends StatelessWidget {
   const HomeContent({Key key}) : super(key: key);
