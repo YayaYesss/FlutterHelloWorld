@@ -83,4 +83,18 @@ class SearchTab extends StatelessWidget {
     );
   }
 }
+class SearchTab extends StatelessWidget {
+  const SearchTab({Key key}) : super(key: key);
+
+  @override
+  Widget build(BuildContext context) {
+    return CustomScrollView(
+      slivers: const <Widget>[
+        CupertinoSliverNavigationBar(
+          largeTitle: Text('Search'),
+        ),
+      ],
+    );
+  }
+}
 
